@@ -20,10 +20,9 @@ public class ProductListSort4_3 {
             products.add(sc.nextLine());
         }
 
-        // Sort the ArrayList
+         
         Collections.sort(products);
-
-        // Display sorted names using for-each loop
+ 
         System.out.println("\nSorted Product Names:");
         for (String product : products) {
             System.out.println(product);
