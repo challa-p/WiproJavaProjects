@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+    <test name="OpenCartTests">
+        <classes>
+            <class name="Selenium_Pac1.OpenCart_AddMacToCart_Test"/>
+            <class name="Selenium_Pac1.OpenCart_SearchFlow_Test"/>
+        </classes>
+    </test>
+</suite>
+
+

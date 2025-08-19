@@ -34,8 +34,7 @@ public class TC0010_Synchro {
         WebElement loginBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']")));
         loginBtn.click();
 
-        // Optional: Verify successful login
-        if(driver.getPageSource().contains("Dashboard")) {
+         if(driver.getPageSource().contains("Dashboard")) {
             System.out.println("Login Successful");
         } else {
             System.out.println("Login Failed");
