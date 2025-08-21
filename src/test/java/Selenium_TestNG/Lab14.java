@@ -24,7 +24,7 @@ public class Lab14 {
 
     @BeforeTest
     public void setUp() {
-        // ✅ WebDriverManager handles ChromeDriver automatically
+         
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
