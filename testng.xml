@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OpenCart Suite">
+    <test name="Lab16 - OpenCart Registration Test">
+        <classes>
+            <class name="Lab16_OpenCartRegisterTest"/>
+        </classes>
+    </test>
+</suite>

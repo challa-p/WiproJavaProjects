@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium_TestNG.Lab14">
+      <class name="Selenium_TestNG.Lab16_OpenCartRegisterTest">
         <methods>
-          <include name="registerUser"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="registerTest"/>
         </methods>
-      </class> <!-- Selenium_TestNG.Lab14 -->
+      </class> <!-- Selenium_TestNG.Lab16_OpenCartRegisterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
